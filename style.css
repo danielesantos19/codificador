@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    padding: 50px;
+    color: white;
+    background-color: rgb(14, 1, 11);
+   /* animation: teste 5s infinite;*/
+}
+/*
+@keyframes teste {
+  0%{
+    background-color: rgb(76, 110, 162);
+  }
+  50%{
+    background-color: rgb(43, 86, 226);
+  }
+  100%{
+    background-color: rgb(6, 6, 85);
+  }
+ } */
+
+h1{
+   text-align: center;
+   font-size: 80px;
+   animation: h1ani 5s alternate infinite;
+   
+}
+@keyframes h1ani {
+    0% {
+        color: white;
+      }
+      100% {
+       color: rgb(51, 48, 56);
+      }
+    }
+    
+h1:hover{
+    
+    text-decoration: underline;
+}
+main{
+   display: flex;
+   margin-left: 80px;
+   margin-bottom: 50px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   
+}
+.encrip, .desenc, .btn-copiar{
+  border-radius: 10px;
+  text-decoration: none;
+    background-color: rgb(163, 104, 190);
+    color: white;
+    width: 100px;
+    height: 40px;
+    transition: background .3s;
+}
+.encrip:hover{
+  background-color: rgb(9, 71, 51);
+}
+.desenc:hover{
+  background-color: rgb(9, 71, 51);
+}
+textarea{
+  display: block;
+  color: white;
+  background: transparent;
+  text-transform: uppercase;
+
+}
+textarea:valid{
+  border: 2px solid white;
+}
+footer{
+  color: white;
+  animation: anih6 4s alternate infinite;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+.icons ion-icon{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+
+@keyframes anih6{
+    from {
+        transform: translateX(30px);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    @media(min-width:  796px){
+      
+   
+    }

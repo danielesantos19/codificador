@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset ="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/jpg" sizes="16x16"  href="lg.svg">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+            </style>
+        <title>Decodificador</title>
+
+    </head>
+    <body>
+        <header>
+        
+        </header>
+            <h1>&#8921 Decodificador &#8920 </h1>
+        <main>
+        <section >
+            <label for="msg">Mensagem criptografada:</label>
+            <textarea id="txt-msg" cols="30" rows="10"  placeholder="Insira o texto"></textarea>
+            <div class="botoes">
+                <button class="encrip" onclick="criptografa()">Criptador</button>
+                <button class="desenc"onclick="descriptografar()">Descriptador</button>
+            </div>
+        </section>
+
+        <section >
+            <label for="msg">Resultado:</label>
+            <textarea id="txt-msg2"cols="30" rows="10" > </textarea>
+            <button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>
+     </section>
+     
+     </main>
+        <footer>
+           <div class="icons">
+            <a href="https://github.com/danielesantos19"><ion-icon name="logo-github"></ion-icon> </a></div>
+          
+           <h2>Desenvolvido por &#8921 Daniele Santos </h2><div id="particles-js"> </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+   
+    
+
+</html>
