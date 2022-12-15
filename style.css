@@ -5,6 +5,7 @@
     font-family: 'Playfair Display', serif;
 }
 body{
+    width: 100%;
     padding: 50px;
     color: white;
     background-color: rgb(14, 1, 11);
@@ -80,8 +81,7 @@ footer{
   color: white;
   animation: anih6 4s alternate infinite;
   text-align: center;
-  position: relative;
-  margin: auto;
+  
 }
 .icons ion-icon{
   position: relative;
@@ -100,7 +100,24 @@ footer{
       }
     }
 
-    @media(min-width:  796px){
-      
-   
-    }
+    @media(max-width:  796px){
+      body {
+        width:100%;} 
+      h1{
+        font-size: 2em;
+      }
+      h2{
+        font-size: 1em;
+        padding: 10px;
+      }
+      textarea{
+        
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          justify-items: center;
+        }
+        label{
+          text-align: center;
+        }
+  }
